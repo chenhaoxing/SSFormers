@@ -1,0 +1,9 @@
+k_shot: 1
+train:
+    query_per_class_per_episode: 8
+model:
+    query: "ST"
+    forward_encoding: "Grid-3,2"
+test:
+    query_per_class_per_episode: 8
+    batch_size: 1
