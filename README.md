@@ -1,9 +1,21 @@
 # Sparse Spatial Transformers for Few-Shot Learning
 This code implements the Sparse Spatial Transformers for Few-Shot Learning(SSFormers).
+
+## Citation
+If you find our work useful, please consider citing our work using the bibtex:
+```
+@Article{chen2021sparse,
+	author  = {Chen, Haoxing and Li, Huaxiong and Li, Yaohui and Chen, Chunlin},
+	title   = {Sparse Spatial Transformers for Few-Shot Learning},
+	journal = {arXiv preprint arXiv:2109.12932},
+	year    = {2021},
+}
+```
+
 ## Prerequisites
 * Linux
-* Python 3.7
-* Pytorch 1.0+
+* Python 3.8
+* Pytorch 1.9.1
 * GPU + CUDA CuDNN
 * pillow, torchvision, scipy, numpy
 ## Datasets
@@ -29,3 +41,5 @@ python experiments/run_semi_trainer.py --cfg ./configs/miniImagenet/ST_N5K1_semi
 
 python experiments/run_semi_evaluator.py --cfg ./configs/miniImagenet/ST_N5K1_semi_with_extractor.yaml -c ./checkpoints/*/*.pth --device 0
 ```
+
+Our code is based on [MCL](https://github.com/LouieYang/DMN4).
