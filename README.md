@@ -1,5 +1,5 @@
 # Sparse Spatial Transformers for Few-Shot Learning
-This code implements the Sparse Spatial Transformers for Few-Shot Learning(SSFormers).
+This code implements the [Sparse Spatial Transformers for Few-Shot Learning(SSFormers)](https://arxiv.org/abs/2109.12932).
 
 ## Citation
 If you find our work useful, please consider citing our work using the bibtex:
