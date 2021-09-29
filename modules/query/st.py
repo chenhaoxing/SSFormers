@@ -35,7 +35,7 @@ class ST(nn.Module):
                 if l.bias is not None:
                     torch.nn.init.constant_(l.bias, 0)
 
-    def _MNN(self, simi_matrix, compensate_for_single):
+    def _Select_Func(self, simi_matrix, compensate_for_single):
         b, q, N, M_q, M_s = simi_matrix.shape
 
         simi_matrix_merged = simi_matrix.permute(0, 1, 3, 2, 4).contiguous().view(b, q, M_q, -1) #b,q,mq,nms
@@ -82,7 +82,7 @@ class ST(nn.Module):
 
         simi_matrix = query_xf_q @ support_xf_k
         simi_matrix = simi_matrix / np.power(self.project_dim, 0.5)
-        q_mask = self._MNN(simi_matrix, self.cfg.model.encoder != "FourLayer_64F")  # bxQxNxM_qxM_s 1 40 1 25 1
+        q_mask = self._Select_Func(simi_matrix, self.cfg.model.encoder != "FourLayer_64F")  # bxQxNxM_qxM_s 1 40 1 25 1
         mask = simi_matrix * q_mask.float().unsqueeze(2).unsqueeze(-1)
         att = nn.Softmax(dim=-1)(mask)
         aligned_query_support = torch.matmul(att, support_xf_v.transpose(-1, -2)) #b,q,n,hw,c
