@@ -1,7 +1,7 @@
 # :star2: Sparse Spatial Transformers for Few-Shot Learning
 This code implements the [Sparse Spatial Transformers for Few-Shot Learning(SSFormers)](https://arxiv.org/abs/2109.12932).
 
-## :notes: Citation
+## :bookmark: Citation
 If you find our work useful, please consider citing our work using the bibtex:
 ```
 @Article{chen2021sparse,
@@ -26,7 +26,7 @@ TieredImageNet is also a subset of ImageNet, which includes 608 classes from 34 
 
 **Note: You need to manually change the dataset directory.**
 
-## Few-shot Classification
+## :four_leaf_clover: Few-shot Classification
 * Train a 5-way 1-shot SSFormers model based on Conv-64F (on miniImageNet dataset):
 ```
  python experiments/run_trainer.py  --cfg ./configs/miniImagenet/ST_N5K1_R12.yaml --device 0
@@ -46,4 +46,5 @@ python experiments/run_semi_evaluator.py --cfg ./configs/miniImagenet/ST_N5K1_se
 
 ## Contacts
 Please feel free to contact us if you have any problems.
+
 Email :email: : [haoxingchen@smail.nju.edu.cn](haoxingchen@smail.nju.edu.cn)
