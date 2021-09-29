@@ -1,7 +1,7 @@
 # :star2: Sparse Spatial Transformers for Few-Shot Learning
 This code implements the [Sparse Spatial Transformers for Few-Shot Learning(SSFormers)](https://arxiv.org/abs/2109.12932).
 
-## Citation
+## :notes: Citation
 If you find our work useful, please consider citing our work using the bibtex:
 ```
 @Article{chen2021sparse,
@@ -12,13 +12,13 @@ If you find our work useful, please consider citing our work using the bibtex:
 }
 ```
 
-## Prerequisites
+## :palm_tree: Prerequisites
 * Linux
 * Python 3.8
 * Pytorch 1.9.1
 * GPU + CUDA CuDNN
 * pillow, torchvision, scipy, numpy
-## Datasets
+## :bookmark_tabs: Datasets
 **Dataset download link:**
 * [miniImageNet](https://drive.google.com/file/d/1fUBrpv8iutYwdL4xE1rX_R9ef6tyncX9/view) It contains 100 classes with 600 images in each class, which are built upon the ImageNet dataset. The 100 classes are divided into 64, 16, 20 for meta-training, meta-validation and meta-testing, respectively.
 * [tieredImageNet](https://drive.google.com/drive/folders/163HGKZTvfcxsY96uIF6ILK_6ZmlULf_j?usp=sharing)
@@ -46,4 +46,4 @@ python experiments/run_semi_evaluator.py --cfg ./configs/miniImagenet/ST_N5K1_se
 
 ## Contacts
 Please feel free to contact us if you have any problems.
-Email: [haoxingchen@smail.nju.edu.cn](haoxingchen@smail.nju.edu.cn)
+Email :email: : [haoxingchen@smail.nju.edu.cn](haoxingchen@smail.nju.edu.cn)
