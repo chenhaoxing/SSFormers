@@ -1,4 +1,4 @@
-# Sparse Spatial Transformers for Few-Shot Learning
+# :star2: Sparse Spatial Transformers for Few-Shot Learning
 This code implements the [Sparse Spatial Transformers for Few-Shot Learning(SSFormers)](https://arxiv.org/abs/2109.12932).
 
 ## Citation
