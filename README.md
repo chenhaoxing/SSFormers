@@ -42,9 +42,7 @@ python experiments/run_semi_trainer.py --cfg ./configs/miniImagenet/ST_N5K1_semi
 python experiments/run_semi_evaluator.py --cfg ./configs/miniImagenet/ST_N5K1_semi_with_extractor.yaml -c ./checkpoints/*/*.pth --device 0
 ```
 
-## Our code is based on [MCL](https://github.com/LouieYang/DMN4) and [DeepEMD](https://github.com/icoz69/DeepEMD).
-
-## Contacts
+## :email: Contacts
 Please feel free to contact us if you have any problems.
 
-Email :email: : [haoxingchen@smail.nju.edu.cn](haoxingchen@smail.nju.edu.cn)
+Email: [haoxingchen@smail.nju.edu.cn](haoxingchen@smail.nju.edu.cn)
