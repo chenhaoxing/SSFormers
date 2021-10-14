@@ -46,3 +46,5 @@ python experiments/run_semi_evaluator.py --cfg ./configs/miniImagenet/ST_N5K1_se
 Please feel free to contact us if you have any problems.
 
 Email: [haoxingchen@smail.nju.edu.cn](haoxingchen@smail.nju.edu.cn)
+
+## Our code is based on [MCL](https://github.com/LouieYang/MCL) and [FEAT](https://github.com/Sha-Lab/FEAT).
