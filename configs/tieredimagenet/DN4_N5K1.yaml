@@ -1,0 +1,10 @@
+k_shot: 1
+train:
+    query_per_class_per_episode: 15
+    lr_decay: 0.05
+model:
+    query: "DN4"
+    encoder: "FourLayer_64F_4x"
+test:
+    query_per_class_per_episode: 15
+    batch_size: 1
