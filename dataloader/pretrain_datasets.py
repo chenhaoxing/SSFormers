@@ -21,7 +21,7 @@ class PreDataset(data.Dataset):
         x = 1
         data_folder = osp.basename(osp.abspath(cfg.data.image_dir))
 
-        if data_folder == "Cifar-100":
+        if data_folder == "CIFAR-100" or data_folder == "CIFAR-FS"::
             norm = transforms.Normalize((0.5071, 0.4866, 0.4409), (0.2009, 0.1984, 0.2023))
         else:
             norm = transforms.Normalize(
