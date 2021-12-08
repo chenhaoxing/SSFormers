@@ -1,5 +1,5 @@
 k_shot: 1
-n_way: 16
+n_way: 20
 model:
     encoder: "R12-pre"
 test:
