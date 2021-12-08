@@ -1,7 +1,6 @@
 # :star2: Sparse Spatial Transformers for Few-Shot Learning
 This code implements the [Sparse Spatial Transformers for Few-Shot Learning(SSFormers)](https://arxiv.org/abs/2109.12932).
 
-Our code is based on [MCL](https://github.com/LouieYang/MCL) and [FEAT](https://github.com/Sha-Lab/FEAT).
 ## :bookmark: Citation
 If you find our work useful, please consider citing our work using the bibtex:
 ```
@@ -45,6 +44,7 @@ python experiments/run_semi_trainer.py --cfg ./configs/miniImagenet/ST_N5K1_semi
 
 python experiments/run_semi_evaluator.py --cfg ./configs/miniImagenet/ST_N5K1_semi_with_extractor.yaml -c ./checkpoints/*/*.pth --device 0
 ```
+### Our code is based on [MCL](https://github.com/LouieYang/MCL) and [FEAT](https://github.com/Sha-Lab/FEAT).
 
 ## :email: Contacts
 Please feel free to contact us if you have any problems.
