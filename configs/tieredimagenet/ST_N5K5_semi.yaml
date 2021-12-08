@@ -1,0 +1,13 @@
+model:
+    query: "ST"
+    forward_encoding: "Grid-3,2"
+    encoder: "FourLayer_64F_4x"
+train:
+    epochs: 30
+    batch_size: 2
+    query_per_class_per_episode: 8
+    episode_per_epoch: 10000
+test:
+    query_per_class_per_episode: 8
+    batch_size: 1
+

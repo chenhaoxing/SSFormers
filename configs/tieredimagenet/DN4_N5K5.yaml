@@ -1,0 +1,11 @@
+k_shot: 5
+train:
+    query_per_class_per_episode: 8
+    lr_decay: 0.05
+model:
+    query: "DN4"
+    forward_encoding: "Grid-3,2"
+    encoder: "FourLayer_64F_4x"
+test:
+    query_per_class_per_episode: 8
+    batch_size: 1
