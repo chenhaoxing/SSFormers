@@ -19,10 +19,6 @@ If you find our work useful, please consider citing our work using the bibtex:
 * GPU + CUDA CuDNN
 * pillow, torchvision, scipy, numpy
 ## :bookmark_tabs: Datasets
-
-## Pre-trained backbone
-We provided pre-trained backbone at https://pan.baidu.com/s/1v2k-mdCpGLtKnKG5ijYXMw  keys: 334q
-
 **Dataset download link:**
 * [miniImageNet](https://drive.google.com/file/d/1fUBrpv8iutYwdL4xE1rX_R9ef6tyncX9/view) It contains 100 classes with 600 images in each class, which are built upon the ImageNet dataset. The 100 classes are divided into 64, 16, 20 for meta-training, meta-validation and meta-testing, respectively.
 * [tieredImageNet](https://drive.google.com/drive/folders/163HGKZTvfcxsY96uIF6ILK_6ZmlULf_j?usp=sharing)
@@ -32,6 +28,10 @@ CIFAR-FS is divided from CIFAR-100, which consists of 60,000 images in 100 categ
 * [FC-100](https://drive.google.com/file/d/1_ZsLyqI487NRDQhwvI7rg86FK3YAZvz1/view?usp=sharing)
 FC-100 is also divided from CIFAR-100, which is more difficult because it is more diverse. The FC100 uses a split similar to tieredImageNet, where train, validation, and test splits contain 60, 20, and 20 classes.
 **Note: You need to manually change the dataset directory.**
+
+
+## Pre-trained backbone
+We provided pre-trained backbone at https://pan.baidu.com/s/1v2k-mdCpGLtKnKG5ijYXMw  keys: 334q
 
 ## :four_leaf_clover: Few-shot Classification
 * Train a 5-way 1-shot SSFormers model based on Conv-64F (on miniImageNet dataset):
