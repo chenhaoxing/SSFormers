@@ -1,5 +1,20 @@
 # :star2: Sparse Spatial Transformers for Few-Shot Learning
 This code implements the [Sparse Spatial Transformers for Few-Shot Learning(SSFormers)](https://arxiv.org/abs/2109.12932).
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/sparse-spatial-transformers-for-few-shot/few-shot-image-classification-on-fc100-5-way)](https://paperswithcode.com/sota/few-shot-image-classification-on-fc100-5-way?p=sparse-spatial-transformers-for-few-shot)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/sparse-spatial-transformers-for-few-shot/few-shot-image-classification-on-fc100-5-way-1)](https://paperswithcode.com/sota/few-shot-image-classification-on-fc100-5-way-1?p=sparse-spatial-transformers-for-few-shot)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/sparse-spatial-transformers-for-few-shot/few-shot-image-classification-on-cifar-fs-5)](https://paperswithcode.com/sota/few-shot-image-classification-on-cifar-fs-5?p=sparse-spatial-transformers-for-few-shot)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/sparse-spatial-transformers-for-few-shot/few-shot-image-classification-on-cifar-fs-5-1)](https://paperswithcode.com/sota/few-shot-image-classification-on-cifar-fs-5-1?p=sparse-spatial-transformers-for-few-shot)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/sparse-spatial-transformers-for-few-shot/few-shot-image-classification-on-mini-3)](https://paperswithcode.com/sota/few-shot-image-classification-on-mini-3?p=sparse-spatial-transformers-for-few-shot)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/sparse-spatial-transformers-for-few-shot/few-shot-image-classification-on-mini-2)](https://paperswithcode.com/sota/few-shot-image-classification-on-mini-2?p=sparse-spatial-transformers-for-few-shot)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/sparse-spatial-transformers-for-few-shot/few-shot-image-classification-on-tiered)](https://paperswithcode.com/sota/few-shot-image-classification-on-tiered?p=sparse-spatial-transformers-for-few-shot)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/sparse-spatial-transformers-for-few-shot/few-shot-image-classification-on-tiered-1)](https://paperswithcode.com/sota/few-shot-image-classification-on-tiered-1?p=sparse-spatial-transformers-for-few-shot)
 
 ## :bookmark: Citation
 If you find our work useful, please consider citing our work using the bibtex:
